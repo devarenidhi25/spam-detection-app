@@ -20,6 +20,14 @@ def preprocess(text):
     return text
 
 
+# Page config
+st.set_page_config(
+    page_title="Spam Detector",
+    page_icon="📧",
+    layout="wide"
+)
+
+
 st.title("📧 Spam Detector App")
 st.markdown("Upload a CSV file with SMS data and test spam detection.")
 
